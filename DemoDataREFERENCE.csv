@@ -1,0 +1,93 @@
+﻿Demographic Estimates,,,,
+,,,,
+*Note: Each variable has codes represented below and in the corresponding database.,,,,
+"            Each variable is represented by five columns in the database, with five corresponding field headings differing in their final character, as described below.",,,,
+            Field headings ending in:,,,,
+"""E"" = estimates",,,,
+"""M"" = margins of error",,,,
+"""C"" = coefficients of variation",,,,
+"""P"" = percents",,,,
+"""Z"" = percent margins of error",,,,
+"            Where the database cells are blank, numeric representations were not applicable.",,,,
+,,,,
+Variable,Code,Source(s),Start Column,Unit of Analysis
+Type of Geography,GeoType,Pop Div,A,NA
+Type of Community District Tabulation Area (Community District or Joint Interest Area),CDTAType,Pop Div,B,NA
+Community District Tabulation Area Name,GeogName,Pop Div,C,NA
+Community District Tabulation Area Code,GeoID,Pop Div,D,NA
+Borough,Borough,Pop Div,E,NA
+SEX AND AGE,,,,
+Total population,Pop_1,DP05,F,Persons
+Male,Male,DP05,K,Persons
+Female,Fem,DP05,P,Persons
+,,,,
+Under 18 years,PopU181,DP05,DG,Persons
+65 years and over,Pop65pl1,DP05,DL,Persons
+,,,,
+Median age (years),MdAge,"DP05, B01001",DQ,Persons
+,,,,
+MUTUALLY EXCLUSIVE RACE/HISPANIC ORIGIN,,,,
+Total population,Pop_2,DP05,EZ,Persons
+Hispanic/Latino (of any race),Hsp1,DP05,FE,Persons
+Not Hispanic/Latino,NHsp,DP05,FJ,Persons
+White alone,WtNH,DP05,FO,Persons
+Black or African American alone,BlNH,DP05,FT,Persons
+American Indian and Alaska Native alone,AIANNH,DP05,FY,Persons
+Asian alone,AsnNH,DP05,GD,Persons
+Native Hawaiian and Other Pacific Islander alone,NHPINH,DP05,GI,Persons
+Some other race alone,OthNH,DP05,GN,Persons
+Two or more races,Rc2plNH,DP05,GS,Persons
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

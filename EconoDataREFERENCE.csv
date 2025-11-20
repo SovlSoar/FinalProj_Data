@@ -1,0 +1,56 @@
+﻿Selected Economic Characteristics,,,,
+,,,,
+*Note: Each variable has codes represented below and in the corresponding database.,,,,
+"            Each variable is represented by five columns in the database, with five corresponding field headings differing in their final character, as described below.",,,,
+            Field headings ending in:,,,,
+"""E"" = estimates",,,,
+"""M"" = margins of error",,,,
+"""C"" = coefficients of variation",,,,
+"""P"" = percents",,,,
+"""Z"" = percent margins of error",,,,
+"            Where the database cells are blank, numeric representations were not applicable.",,,,
+,,,,
+Variable,Code,Source(s),Start Column,Unit of Analysis
+Type of Geography,GeoType,Pop Div,A,NA
+Type of Community District Tabulation Area (Community District or Joint Interest Area),CDTAType,Pop Div,B,NA
+Community District Tabulation Area Name,GeogName,Pop Div,C,NA
+Community District Tabulation Area Code,GeoID,Pop Div,D,NA
+Borough,Borough,Pop Div,E,NA
+EMPLOYMENT STATUS,,,,
+Population 16 years and over,Pop16pl,DP03,F,Persons
+INCOME AND BENEFITS,,,,
+Median household income (dollars),MdHHInc,"DP03, B19001",KY,Households
+Mean household income (dollars),MnHHInc,"DP03, B19025",LD,Households
+,,,,
+Median family income (dollars),MdFamInc,"DP03, B19101",OK,Households
+,,,,
+Nonfamily households,Nfam2,DP03,OP,Households
+Median nonfamily income (dollars),MdNFInc,"DP03, B19201",OU,Households
+,,,,
+Per capita income (dollars),PerCapInc,"DP03, B01001, B19313",OZ,Households
+,,,,
+,,,,
+INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL,,,,
+All families,FamPvU,B17010,UJ,Persons
+Below poverty,FamBwPv,B17010,UO,Persons
+Population for whom poverty status is determined,PopPvU1,S1701,UT,Persons
+Below poverty,PBwPv,S1701,UY,Persons
+Under 18 years,PU18PvU,S1701,VD,Persons
+Below poverty,PU18BwPv,S1701,VI,Persons
+65 years and over,P65plPvU,S1701,VN,Persons
+Below poverty,P65plBwPv,S1701,VS,Persons
+,,,,
+RATIO OF INCOME TO POVERTY LEVEL,,,,
+Population for whom poverty status is determined,PopPvU2,B17024,VX,Persons
+Under .50,PvU50,B17024,WC,Persons
+.50 to .74,Pv50t74,B17024,WH,Persons
+.75 to .99,Pv75t99,B17024,WM,Persons
+1.00 to 1.24,Pv100t124,B17024,WR,Persons
+1.25 to 1.49,Pv125t149,B17024,WW,Persons
+1.50 to 1.74,Pv150t174,B17024,XB,Persons
+1.75 to 1.84,Pv175t184,B17024,XG,Persons
+1.85 to 1.99,Pv185t199,B17024,XL,Persons
+2.00 to 2.99,Pv200t299,B17024,XQ,Persons
+3.00 to 3.99,Pv300t399,B17024,XV,Persons
+4.00 to 4.99,Pv400t499,B17024,YA,Persons
+5.00 and over,Pv500pl,B17024,YF,Persons
